@@ -1,0 +1,80 @@
+body {
+    background-image:url("https://cdn.shopify.com/s/files/1/1191/7384/products/WESTEROS-MAP-GAME-OF-THRONES-poster-WEB.jpg?v=1538098163");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.h1 {
+    background-image: url("https://images.template.net/wp-content/uploads/2016/06/22120205/game-of-thrones-single.jpg");
+    background-position: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+h1 {
+    color: lightgray;
+    font-family: "Trajan Pro";
+    font-display: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container {
+    background-image: url("https://wallpapersite.com/images/pages/pic_w/7959.jpg");
+    opacity: .8;
+    background-position: center;
+    background-repeat: ;
+    height: auto;
+    width: 540px;
+    position: center;
+
+}
+
+#timeremaining {
+    color: lightgray;
+    font-size: 30px;
+    font-family: "Trajan Pro";
+    text-align: center;
+
+}
+
+#question1 {
+    color: lightgray;
+    font-size: 25px;
+    font-family: "Trajan Pro";
+    text-align: center;
+} 
+
+#question2 {
+    color: lightgray;
+    font-size: 25px;
+    font-family: "Trajan Pro";
+    text-align: center;
+}
+
+#question3 {
+    color: lightgray;
+    font-size: 25px;
+    font-family: "Trajan Pro";
+    text-align: center;
+}
+
+.form-checkform-check-inline {
+    color: lightgray;
+    font-size: 20px;
+    font-family: "Trajan Pro";
+    text-align: center;
+    position: center;
+
+}
+
+.form-check-inline {
+    color: lightgray;
+    text-align: center;
+}
+.inline-checkbox1 {
+    color: lightgray;
+    position: center;
+}
