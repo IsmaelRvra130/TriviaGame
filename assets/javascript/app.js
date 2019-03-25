@@ -6,7 +6,7 @@
     //Reveal page with # of qustions got answered correctly and incorrectly.
 //restart button.
 
-var number = 10; // variables.
+var number = 30; // variables.
 var intervalId;
 /*var question1 = daenerysDragon;
 var question2 = aryaStark;
