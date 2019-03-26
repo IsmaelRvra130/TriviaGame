@@ -11,7 +11,7 @@ var intervalId;
 var correct = 0;
 var incorrect = 0;
 
-alert("Are you ready?!")
+//alert("Are you ready?!")
 
     //function for the timer countdown.
 function run() {   
@@ -35,9 +35,9 @@ function stop() {
 }
 run();
 console.log("hi");
-var question1 = "daenerysDragon";
+var question1 = "DaenerysDragon";
 var question2 = "aryaStark";
-var question3 = "jonSnowsWolf";
+var question3 = "JonSnowsWolf";
 var question4 = "robBart";
 
 function radio() {
@@ -46,43 +46,45 @@ function radio() {
 }
 
 function check() {
-/*var question1 = daenerysDragon;
-var question2 = aryaStark;
-var question3 = jonSnowWolf;
-var question4 = robBart;*/
-//console.log("stop")
- correct = 0;
- incorrect = 0;
-    if (question1 == "daenerysDragon") {
-        correct++;
-    } else  {
-        incorrect++;
-    }
+    $.each($("input[name = 'question1']:checked"),function(){
+        if ($(this).val() == question1) {
+            correct++;
+        } 
+        else {
+            incorrect++;
+        }
+    })
 
-    if (question2 == "aryaStark") {
-        correct++;
-    }
-    else {
-        incorrect++;
-    }
-    if (question3 == "jonSnowsWolf") {
-        correct++;
-    }
-    else {
-        incorrect++;
-    }
-    if (question4 == "robBart") {
-        correct++;
-    }
-    else {
-        incorrect++;
-    }
+    $.each($("input[name = 'question2']:checked"),function(){
+        if ($(this).val() == question2) {
+            correct++;
+        } 
+        else {
+            incorrect++;
+        }
+    })
 
+    $.each($("input[name = 'question3']:checked"),function(){
+        if ($(this).val() == question3) {
+            correct++;
+        } 
+        else {
+            incorrect++;
+        }
+    })
+
+    $.each($("input[name = 'question4']:checked"),function(){
+        if ($(this).val() == question4) {
+            correct++;
+        } 
+        else {
+            incorrect++;
+        }
+    })
     console.log("check");
     //document.getElementById("after-submit").innerHTML= "strawberry";
-    document.getElementById("numberCorrect").innerHTML = "You got " + correct + " correct. <br> You got " + incorrect + " incorrect";
-    
+   // document.getElementById("numberCorrect").innerHTML = "You got " + correct + " correct. <br> You got " + incorrect + " incorrect";
+    $("#numberCorrect").text("You got " + correct + " correct.   You got " + incorrect + " incorrect");
 }
 
 check()
-console.log(correct);

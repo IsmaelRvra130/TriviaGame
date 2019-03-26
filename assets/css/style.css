@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-    color: black;
+    color: white;
     font-display: bold;
     font-family: "Trajan Pro";
     font-display: center;
@@ -38,15 +38,16 @@ h1 {
     opacity: .8;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1500px;
-    width: 540px;
+    height: 1300px;
+    width: 800px;
     position: center;
+    
 
 }
 
 #timeremaining {
     font-display: bold;
-    color: black;
+    color:white;
     font-size: 30px;
     font-family: "Trajan Pro";
     text-align: center;
@@ -113,6 +114,7 @@ h1 {
    
 }
 #button {
+    margin-top: -200px;
     margin-left: 600px;
     border-color: blue;
     height: 45px;
