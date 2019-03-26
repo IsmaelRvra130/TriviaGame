@@ -25,7 +25,8 @@ body {
 }
 
 h1 {
-    color: lightgray;
+    color: black;
+    font-display: bold;
     font-family: "Trajan Pro";
     font-display: center;
     font-size: 25px;
@@ -36,15 +37,16 @@ h1 {
     background-image: url("https://wallpapersite.com/images/pages/pic_w/7959.jpg");
     opacity: .8;
     background-position: center;
-    background-repeat: ;
-    height: auto;
+    background-repeat: no-repeat;
+    height: 1500px;
     width: 540px;
     position: center;
 
 }
 
 #timeremaining {
-    color: lightgray;
+    font-display: bold;
+    color: black;
     font-size: 30px;
     font-family: "Trajan Pro";
     text-align: center;
@@ -119,7 +121,9 @@ h1 {
 }
 
 #after-submit {
-    visibility: hidden;
+    background-color:red;
+    color: green;
+    /*visibility: hidden;*/
     position: center;
     height: 600px;
     width: 800px;
