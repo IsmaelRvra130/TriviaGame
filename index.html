@@ -14,15 +14,17 @@
     <title>TriviaGame</title>
   </head>
   <body>
-    <div class="container">
-        <div class="row">
+    <div id="container">
+        <div id="row">
             <div class="col-lg">
             <div class="h1"></div>
+            <br>
+            <br>
             <h1>**Test your Game of thrones knowledge!**</h1>
             <br>
             <div id="timeremaining">Time Remaning: <span class="timer">30</span> Seconds.</div>
             <br>
-            <div id="question1"><span id>Who was Drogon?</span></div>
+            <h2>Who was Drogon?</h2>
             <br>
             <div class="form-check form-check-inline">
                     <input class="form-check-input" name="question1" type="radio" id="inlineCheckbox1" value="Daenerys husband">
@@ -41,7 +43,7 @@
                     <label class="lock" for="inlineCheckbox4">The leader of the brotherhood</label>
                   </div>
                   <br>
-            <div id="question2">Who has a list of kills?</div>
+            <h2>Who has a list of kills?</h2>
             <br>
             <div class="form-check form-check-inline">
                     <input class="form-check-input" name="question2" type="radio" id="inlineCheckbox5" value="jonSnow">
@@ -59,7 +61,8 @@
                     <input class="form-check-input" name="question2" type="radio" id="inlineCheckbox8" value="daenerys">
                     <label class="lock" for="inlineCheckbox4">Daenerys</label>
                   </div>
-            <div id="question3">Who is Ghost?</div>
+            <br>
+            <h2>Who is Ghost?</h2>
             <br>
             <div class="form-check form-check-inline">
                     <input class="form-check-input" name="question3" type="radio" id="inlineCheckbox9" value="childFromForest">
@@ -78,10 +81,12 @@
                     <label class="lock" for="inlineCheckbox4">The witches son</label>
                   </div>
             </div>
-  
-            <div id="question4">Who was king of Westros in season 1?</div>
+            
             <br>
-            <div class="form">
+            <h2>Who's king of Westros in season 1?</h2>
+            <br>
+            
+            <div class="form-check form-check-inline">
                     <input class="form-check-input" name="question4" type="radio" id="inlineCheckbox13" value="robBart">
                     <label class="lock" for="inlineCheckbox1">Robert Baratheon.</label>
                   </div>
@@ -97,16 +102,21 @@
                     <input class="form-check-input" name="question4" type="radio" id="inlineCheckbox16" value="aeryTargaryan">
                     <label class="lock" for="inlineCheckbox4">Aery Targaryan.</label>
                   </div>
+                  <input id = "button" type = "button" value = "I'm finished" onclick = "check()">
+                  <input id = "restart" type = "button" value = "Play Again!" onclick = "restart()">
+                  <div id = "after-submit">
+                    <p id = "numberCorrect"></p>
+                  </div>
             </div>
         </div>
       </div>
 
-      <input id = "button" type = "button" value = "I'm finished" onclick = "check()">
+      <!--<input id = "button" type = "button" value = "I'm finished" onclick = "check()">-->
 
 
-      <div id = "after-submit">
+    <!--  <div id = "after-submit">
         <p id = "numberCorrect"></p>
-      </div>
+      </div>-->
 
 
     <!-- Optional JavaScript -->
