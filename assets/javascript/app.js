@@ -1,10 +1,9 @@
+alert("Are you Ready??!!")
 
 var number = 30; // variables.
 var intervalId;
 var correct = 0;
 var incorrect = 0;
-
-//alert("Are you ready?!")
 
     //function for the timer start countdown.
 function run() {   
@@ -74,28 +73,23 @@ function check() {
         }
     })
 
-    
-    
     //Shows the hidden text after you completed the trivia quiz with how many correct & incorrect.
     $("#numberCorrect").text("You got " + correct + " correct.   You got " + incorrect + " incorrect");
     $("#button").click(function(){
         $(this).prop("#button", true);
+        restart()
      });
      
 }
-
-check()
-
-function restart() {
-    number = 30;
-    intervalId;
-    correct = 0;
-    incorrect = 0;
-    run()
-    decrement()
-    check()
     
-}
-
-// restart button.
-// Add to portfolio.
+    // Restart button.
+    function restart() {
+        number = 30;
+        intervalId;
+        run();
+        correct = 0;
+        incorrect = 0;
+        $("#numberCorrect").hide();
+        location.reload();
+    }
+    

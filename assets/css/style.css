@@ -13,18 +13,16 @@ body {
     margin-left: 450px;
     margin-top: -50px;
     background-repeat: no-repeat;
-    /*opacity: .8;*/
+    
 }
 
 h1 {
-    
     color: white;
     font-display: bold;
     font-family: "Trajan Pro";
     font-size: 25px;
     text-align: center;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;   
 }
 
 h2 {
@@ -46,7 +44,6 @@ h2 {
     width: auto;
     padding: 18px;
     opacity: .8;
-    
     text-align: center;
 }
 
@@ -57,10 +54,7 @@ h2 {
     font-size: 40px;
     font-family: "Trajan Pro";
     text-align: center;
-
 }
-
-
 
 .form-check-inline {
     
@@ -68,10 +62,8 @@ h2 {
     margin-left: 20px;
     color: white;
     text-align: center;
-    padding: 12px;
-   
+    padding: 12px;   
 }
-
 
 #button {
     background-color:gray;
@@ -96,12 +88,9 @@ h2 {
     font-family: "Ariel";
     border-radius: 15px 50px;
     margin-top: 5px;
-
-
 }
 
 #after-submit {
-    
     background-color:black;
     color:white;
     height: 40px;
