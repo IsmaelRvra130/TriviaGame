@@ -1,6 +1,6 @@
 alert("Are you Ready??!!")
 
-var number = 30; // variables.
+var number = 15; // variables.
 var intervalId;
 var correct = 0;
 var incorrect = 0;
@@ -82,9 +82,9 @@ function check() {
      
 }
     
-    // Restart button.
+    // Restart button, Restarts the game if player desires.
     function restart() {
-        number = 30;
+        number = 15;
         intervalId;
         run();
         correct = 0;
